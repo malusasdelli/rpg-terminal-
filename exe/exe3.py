@@ -24,5 +24,10 @@ print(f"key:{chave}: value:'{valor}")
 
 loja_comidas.pop('maca verde')
 print(loja_comidas, '#Maca verde removida')
+for k,v in loja_comidas.items():
+    loja_comidas.get(k)['quantidade']+=20 
+    print(loja_comidas)
+
+
 
 	
